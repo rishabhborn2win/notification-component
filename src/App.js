@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.css';
-import {useNotification} from "./Notifications/NotificationProvider";
+import {useNotification} from "../Notifications/NotificationProvider";
 
 function App() {
   const [inputVal, setInputVal] = useState("");
